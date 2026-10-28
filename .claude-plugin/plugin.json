@@ -1,0 +1,14 @@
+{
+  "name": "shipkit",
+  "displayName": "Shipkit",
+  "version": "1.0.0",
+  "description": "Ship production code with Claude Code: review and E2E test agents, PR, MCP and billing-safety skills, and an AI PR review workflow for CI.",
+  "author": {
+    "name": "Mark Vincent Cueva",
+    "url": "https://github.com/market0v0"
+  },
+  "homepage": "https://github.com/market0v0/shipkit",
+  "repository": "https://github.com/market0v0/shipkit",
+  "license": "MIT",
+  "keywords": ["code-review", "playwright", "mcp", "pull-requests", "ci", "billing"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "shipkit",
+  "description": "Shipkit: agents and skills for shipping production code with Claude Code.",
+  "owner": {
+    "name": "Mark Vincent Cueva",
+    "url": "https://github.com/market0v0"
+  },
+  "plugins": [
+    {
+      "name": "shipkit",
+      "source": "./",
+      "description": "Review and E2E test agents, PR / MCP / billing-safety skills, and an AI PR review workflow for CI.",
+      "category": "development",
+      "tags": ["code-review", "testing", "mcp", "ci"]
+    }
+  ]
+}
