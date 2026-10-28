@@ -1,5 +1,10 @@
 # Shipkit
 
+![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-7E31F1)
+![Agents: 3](https://img.shields.io/badge/agents-3-A855F7)
+![Skills: 5](https://img.shields.io/badge/skills-5-A855F7)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 **Ship production code with Claude Code.** A Claude Code plugin with the agents, skills and CI workflow I use to review, test and ship changes on a multi-tenant SaaS in production.
 
 Install it in two commands, and Claude Code gains a code reviewer, a Playwright test writer, a codebase auditor, and playbooks for PRs, MCP servers and billing-safe code.
@@ -66,6 +71,14 @@ PR body: drafted below, ready to paste
 
 These come from shipping a production SaaS where a wrong total or a duplicated webhook costs real money. The reviewer only reports what it can defend with a failure scenario, the test writer verifies payloads to external systems without calling them, and the money checklist encodes the mistakes that are expensive to find in production.
 
+## About the author
+
+Built by **Mark Vincent Cueva**, Senior Software Engineer focused on AI automation: Claude Code workflows, MCP servers, ERP integrations and E2E testing.
+
+- Portfolio: [github.com/market0v0/portfolio](https://github.com/market0v0/portfolio)
+- LinkedIn: [mark-cueva-90a33424a](https://www.linkedin.com/in/mark-cueva-90a33424a/)
+- Certifications: Anthropic Claude AI Fundamentals · Claude API & AI Integration
+
 ## License
 
-MIT, by [Mark Vincent Cueva](https://github.com/market0v0).
+MIT
